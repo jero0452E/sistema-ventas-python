@@ -19,20 +19,9 @@ Sistema de ventas para tienda de barrio. Permite gestionar inventario, realizar 
 
 ### Cómo descargar y ejecutar
 
-1. Clona el repositorio:
-```bash
-git clone https://github.com/jero0452E/sistema-ventas-python.git
-```
-
-2. Entra a la carpeta:
-```bash
-cd sistema-ventas-python
-```
-
-3. Ejecuta el programa:
-```bash
-python tienda.py
-```
+1. Descarga el proyecto dando clic en **Code > Download ZIP**
+2. Extrae la carpeta
+3. Haz doble clic en **ejecutar.bat** y el programa arranca
 
 ---
 
