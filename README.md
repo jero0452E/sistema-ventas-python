@@ -1,45 +1,22 @@
-# Sistema de Ventas Python
+# Python Projects
 
-Sistema de ventas para tienda de barrio construido como proyecto de aprendizaje en Python.
+Repositorio donde iré subiendo proyectos que vaya creando mientras aprendo Python.
 
-## Funcionalidades
+## Proyectos
 
-- **Ver inventario**: lista productos con precio, cantidad y estado (agotado/disponible)
-- **Hacer una venta**: seleccionar productos, validar stock, generar ticket con IVA (19%)
-- **Ver ventas totales**: historial de todas las ventas realizadas
-- **Reponer stock**: agregar unidades a productos existentes
-- **Crear producto**: agregar nuevos productos al inventario con validación de datos
+### Sistema de Ventas (`tienda.py`)
 
-## Tecnologías
+Sistema de ventas para tienda de barrio. Permite gestionar inventario, realizar ventas con IVA, reponer stock y crear productos nuevos.
 
-- Python 3.10
-- pandas (práctica de análisis de datos)
+**Funcionalidades:**
+- Ver inventario con precio, cantidad y estado
+- Hacer ventas con validación de stock
+- Ticket con IVA (19%)
+- Historial de ventas
+- Reponer stock y crear productos
 
-## Estructura del proyecto
+**Conceptos aplicados:** diccionarios, funciones, `if/for/while`, `try/except`, `break/continue`
 
-```
-tienda.py                          # Sistema de ventas (proyecto principal)
-proyecto_grande_tienda.py          # Versión inicial (práctica de diccionarios)
-tienda_sin_funciones.py            # Versión sin funciones (referencia)
-ventas.csv                         # Datos de ejemplo para pandas
-pandas1_leer.py                    # Ejercicio de lectura CSV con pandas
-Dia 1/                             # Ejercicios: strings, listas, zip, sets
-Dia 2/                             # Ejercicios: inventario con for
-Dia 3/                             # Ejercicios: if, for, while, break
-dia 4/                             # Ejercicios: funciones, try/except
-```
+---
 
-## Cómo ejecutar
-
-```bash
-python tienda.py
-```
-
-## Conceptos aplicados
-
-- Diccionarios anidados
-- Funciones con `def` y `return`
-- Control de flujo: `if/elif/else`, `for`, `while`
-- `try/except` para validación de entrada
-- `break`, `continue`, `while True`
-- `enumerate()`, f-strings, comprensión de sets
+*Proyecto en constante mejora. Se irán integrando nuevas funcionalidades con el tiempo.*
